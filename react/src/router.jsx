@@ -15,24 +15,16 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Navigate to="/users"/>
+        element: <Navigate to="/dashboard"/>
       },
       {
         path: '/dashboard',
         element: <Dashboard/>
       },
       {
-        path: '/users',
+        path: '/profile',
         element: <Users/>
       },
-      {
-        path: '/users/new',
-        element: <UserForm key="userCreate" />
-      },
-      {
-        path: '/users/:id',
-        element: <UserForm key="userUpdate" />
-      }
     ]
   },
   {
