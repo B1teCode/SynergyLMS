@@ -1,10 +1,6 @@
 # Laravel React Example Full Stack Application
 Example Application build with Laravel and React
 
-## Demo
-https://laravel-react.com
-
-
 ## Installation 
 Make sure you have environment setup properly. You will need PHP8.1, composer and Node.js.
 
